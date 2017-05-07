@@ -6,10 +6,10 @@ mnist = input_data.read_data_sets('MNIST_data', one_hot = True)
 
 
 input_layer = 784
-hidden_layer = 150
+hidden_layer = 164
 output_layer = 10
 learning_rate = 0.1
-epochs = 20
+epochs = 25
 batch_size = 100
 
 x = tf.placeholder(tf.float32, [None, input_layer])
